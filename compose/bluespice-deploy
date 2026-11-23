@@ -107,4 +107,4 @@ fi
 		-f docker-compose.persistent-data-services.yml \
 		-f docker-compose.stateless-services.yml \
 		${EXTENDED_TOOLS} \
-		${DOCKER_ARGS[*]}
+		"${DOCKER_ARGS[@]}"
